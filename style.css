@@ -15,5 +15,7 @@ div {
     background-color:rgb(14, 163, 78);
     height: 400px;
     float: left;
-    
+}
+.box2, .box3 {
+    float: right;
 }
