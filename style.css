@@ -5,6 +5,7 @@ div {
     width: 150px;
     height: 150px;
     background-color:azure;
+    box-shadow: 5px 5px 5px rgb(26, 25, 25);
     border: solid medium black;
     border-radius: 35px;
     margin: 15px;
