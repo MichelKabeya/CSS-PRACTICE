@@ -9,7 +9,7 @@ div {
     border: solid medium black;
     border-radius: 35px;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
     
 }
 .box1 {
@@ -34,11 +34,22 @@ div {
     position: relative;
 }
 img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 100%;
     position:absolute;
     right: 41%;
-    top: 20px;
+    top: 14px;
     z-index: 2;
 }    
+img:hover {
+    cursor:pointer;
+    translate: -4px -3px; 
+}
+h4 {
+    font-Size: 20px;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-Size: 15px;
+}
